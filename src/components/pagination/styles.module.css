@@ -1,0 +1,13 @@
+.paginationWrapper {
+    @apply flex flex-row text-center justify-center items-center text-gray mt-[30px]
+ 
+}
+
+.paginationWrapper a {
+    @apply mx-[10px] 
+}
+
+.activePage {
+    @apply mx-[10px] bg-white px-[10px] py-[5px] rounded-[3px] text-blue
+
+}

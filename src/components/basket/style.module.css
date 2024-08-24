@@ -1,0 +1,80 @@
+
+.list {
+  @apply w-[230px] h-[160px]  flex flex-col;
+}
+
+.wrapper {
+  @apply w-[90%] m-[auto] bg-white p-[15px];
+  box-shadow: 0px 4px 4px 0px #00000040;
+  overflow-y: auto;
+}
+
+.title {
+  @apply text-[12px] text-light-gray ml-[20px] mt-[15px];
+}
+
+.price {
+  @apply text-navy-blue text-[10px];
+}
+
+.name {
+  @apply text-[12px];
+}
+
+.flexContainer {
+  @apply flex flex-row justify-between;
+}
+
+.basketItem {
+  @apply flex flex-row justify-between mt-[15px];
+}
+
+.updateButton {
+  @apply text-[12px] bg-alabaster p-[10px] rounded-[5px] cursor-pointer;
+}
+
+.count {
+  @apply text-[12px] bg-navy-blue p-[10px] text-white w-[30px];
+}
+
+@media (min-width: 768px) {
+  .list {
+    @apply w-[230px] h-[160px]  flex flex-col;
+  }
+  
+  .wrapper {
+    @apply  ml-[20px] bg-white p-[15px];
+    box-shadow: 0px 4px 4px 0px #00000040;
+    overflow-y: auto;
+  }
+  
+  .title {
+    @apply text-[12px] text-light-gray ml-[20px] mt-[15px];
+  }
+  
+  .price {
+    @apply text-navy-blue text-[10px];
+  }
+  
+  .name {
+    @apply text-[12px];
+  }
+  
+  .flexContainer {
+    @apply flex flex-row justify-between;
+  }
+  
+  .basketItem {
+    @apply flex flex-row justify-between mt-[15px];
+  }
+  
+  .updateButton {
+    @apply text-[12px] bg-alabaster p-[10px] rounded-[5px] cursor-pointer;
+  }
+  
+  .count {
+    @apply text-[12px] bg-navy-blue p-[10px] text-white w-[30px];
+  }
+  
+}
+

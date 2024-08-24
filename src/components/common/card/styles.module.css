@@ -1,0 +1,33 @@
+.cardWrapper {
+  @apply flex flex-col justify-center w-[350px] bg-white p-[10px] mt-[20px];
+}
+.image {
+  @apply cursor-pointer;
+}
+.price {
+  @apply text-navy-blue my-[10px];
+}
+.name {
+  @apply mb-[10px];
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (min-width: 768px) {
+  .cardWrapper {
+    @apply flex flex-col justify-center w-[160px] bg-white p-[10px];
+  }
+  .image {
+    @apply cursor-pointer;
+  }
+  .price {
+    @apply text-navy-blue my-[10px];
+  }
+  .name {
+    @apply mb-[10px];
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

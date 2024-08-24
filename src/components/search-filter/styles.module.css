@@ -1,0 +1,30 @@
+.searchWrapper {
+  @apply flex flex-row justify-center items-center ;
+}
+
+.searchWrapper img {
+  @apply relative left-[25px];
+}
+
+.searchWrapper input {
+  @apply p-[5px] h-[40px] w-[408px] text-black;
+}
+
+.searchWrapper input::placeholder {
+  @apply pl-[20px];
+}
+
+.filterSearchWrapper {
+  @apply flex flex-row  items-center relative right-[25px];
+}
+
+.filterSearchWrapper img {
+  @apply relative left-[25px] h-[20px];
+}
+.filterSearchWrapper input::placeholder {
+  @apply pl-[30px] w-[190px];
+}
+
+.filterSearchWrapper input {
+  @apply p-[5px] h-[30px] text-black bg-black-haze !important;
+}

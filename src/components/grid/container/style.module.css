@@ -1,0 +1,8 @@
+.container {
+  @apply  w-[100%];
+}
+@media (min-width: 768px) {
+  .container {
+    @apply  mx-auto flex flex-row w-[1280px];
+  }
+}
