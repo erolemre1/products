@@ -8,6 +8,7 @@
 
 .searchWrapper input {
   @apply p-[5px] h-[40px]  text-black  w-[50%];
+  text-indent: 15px;
 }
 
 .searchWrapper input::placeholder {
@@ -61,6 +62,4 @@
   .filterSearchWrapper input {
     @apply p-[5px] h-[30px] text-black bg-black-haze !important;
   }
-  
-  
 }
